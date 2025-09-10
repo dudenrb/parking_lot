@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -e
+# forward args to compiled node script
+node "$(dirname "$0")/../dist/bin/parking_lot.js" "$@"

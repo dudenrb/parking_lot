@@ -1,0 +1,22 @@
+{
+  "name": "parking_lot",
+  "version": "1.0.0",
+  "description": "Parking Lot Automation System (TypeScript)",
+  "main": "dist/bin/parking_lot.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "jest --config jest.config.cjs --runInBand",
+    "start": "node dist/bin/parking_lot.js",
+    "prepare": "npm run build"
+  },
+  "bin": {
+    "parking_lot": "dist/bin/parking_lot.js"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^24.3.1",
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "typescript": "^5.0.0"
+  }
+}
