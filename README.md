@@ -1,5 +1,3 @@
-Here is the README content properly formatted in Markdown:
-
 ### 🅿️ Parking Lot Automation System
 
 This project is a production-grade **Parking Lot Automation System** implemented in **TypeScript**. It's designed as a CLI application that can operate in two modes: **interactive** and **file-based**.
